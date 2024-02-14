@@ -1,26 +1,16 @@
 body {
     font-family: Arial, sans-serif;
     color: black;
+    margin: 0;
 }
 
-h1 {
-    text-align: center;
+.header-title {
     color: #8B0000;
-    font-size: 40px;
+    font-size: 25px;
 }
 
 .header {
     text-align: center;
-}
-
-nav {
-    text-align: right;
-    padding: 1.5em;
-    font-size: 20px;
-    color: black;
-    background-color: beige;
-    margin: -0.5em -0.5em -0.5em -0.5em;
-
 }
 
 h2 {
@@ -56,10 +46,6 @@ ul {
     list-style-type: circle;
 }
 
-.ul-design {
-    text-align: left;
-}
-
 .li-design {
     text-align: left;
     font-size: 20px;
@@ -77,6 +63,16 @@ ul {
 #lasagna {
     text-align: center;
     color: red;
+}
+
+#pizza {
+    text-align: center;
+    color: brown;
+}
+
+#risotto {
+    text-align: center;
+    color: rgb(238, 219, 11);
 }
 
 img {
@@ -107,19 +103,35 @@ img {
     font-weight: bold;
     padding: 1em 1em 1em 1em;
 }
-
-footer {
-    color: black;
-    font-size: 15px;
-    padding: 1em;
+/* Containers and Flex */
+.container-footer {
+    display: flex;
+    justify-content: space-between;
     background-color: #8B0000;
-    color: white;
-    margin: -0.5em -0.5em -0.5em -0.5em;
+    padding: 1em;
+
 }
 
-.footer-text {
-    text-align: center;
-    color: white;
-    font-size: 15px;
-    background-color: #8B0000;
+.container-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: gray;
+    padding: 1em;
+    align-items: baseline;
+    
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.container-body {
+    display: flex;
+    padding: 0em 0em 0em 2em;
+}
+
+.container-list {
+    display: flex;
+    align-items: center;
 }
