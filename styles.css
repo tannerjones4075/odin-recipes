@@ -9,10 +9,30 @@ h1 {
     font-size: 40px;
 }
 
+.header {
+    text-align: center;
+}
+
+nav {
+    text-align: right;
+    padding: 1.5em;
+    font-size: 20px;
+    color: black;
+    background-color: beige;
+    margin: -0.5em -0.5em -0.5em -0.5em;
+
+}
+
 h2 {
     text-align: left;
     color: black;
     font-size: 25px;
+}
+.h2-header {
+    text-align: left;
+    color: black;
+    font-size: 25px;
+    margin-left: 1.5em;
 }
 
 h3 {
@@ -23,20 +43,27 @@ h3 {
 
 p {
     text-align: left;
-} 
-
-.para {
-    text-align: center;
 }
+
+.p-story {
+    text-align: left;
+    font-size: 15px;
+    margin: 1em 2em 2em 3em;
+    line-height: 1.5;
+}
+
 ul {
     list-style-type: circle;
 }
+
 .ul-design {
     text-align: left;
 }
+
 .li-design {
     text-align: left;
-    font-size: 12px;
+    font-size: 20px;
+    margin-left: 1.25em;
 }
 
 .li-design-ordered {
@@ -65,4 +92,34 @@ img {
     text-align: left;
     color: black;
     font-size: 15px;
+}
+
+.short-story {
+    text-align: center;
+    color: black;
+    font-size: 15px;
+}
+
+.subtitle {
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 1em 1em 1em 1em;
+}
+
+footer {
+    color: black;
+    font-size: 15px;
+    padding: 1em;
+    background-color: #8B0000;
+    color: white;
+    margin: -0.5em -0.5em -0.5em -0.5em;
+}
+
+.footer-text {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    background-color: #8B0000;
 }
